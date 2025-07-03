@@ -6,7 +6,7 @@ import pickle
 import soundfile as sf
 import tempfile
 
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("model.keras")
 with open("label_encoder.pkl", "rb") as f:
     le = pickle.load(f)
 
